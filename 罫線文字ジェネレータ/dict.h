@@ -1,0 +1,1 @@
+extern const char* dict[256][256];
