@@ -1,6 +1,6 @@
 #include "dict.h"
 
-const char* dict[256][256] = {0};
+const char* dict[256][256] = {0}; //3次元配列に変更する
 void init_dict(void){
     //辞書
 

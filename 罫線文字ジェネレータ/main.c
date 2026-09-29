@@ -1,4 +1,4 @@
-//ライブラリ
+//ライブラリ　//全体を3次元配列用に書き換える
 #include <stdio.h>
 #include <string.h>
 #include "dict.h"
@@ -26,7 +26,7 @@ int main(void){
         }
     } else if(strcmp(mode, "縦") == 0){
         for(int cnt = 1; cnt <=8; cnt++){
-            
+            //縦用コード
         }
     } else printf(" 入力形式に誤りがあります。入力は次の形式で表記してください。\n   [縦 or 横]\n   [変換したい文字列]\n入力に括弧は不要です。");
     return 0;
