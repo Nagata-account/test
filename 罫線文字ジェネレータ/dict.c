@@ -1,6 +1,7 @@
 #include "dict.h"
+
 const char* dict[256][256] = {0};
-void init_dict(void) {
+void init_dict(void){
     //辞書
 
     //アルファベット大文字領域

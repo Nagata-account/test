@@ -1,6 +1,7 @@
 //ライブラリ
 #include <stdio.h>
 #include <string.h>
+#include "dict.h"
 
 //本体
 int main(void){
