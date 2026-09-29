@@ -1,4 +1,4 @@
-//ライブラリ　//全体を3次元配列用に書き換える
+//ライブラリ
 #include <stdio.h>
 #include <string.h>
 #include "dict.h"
@@ -20,7 +20,7 @@ int main(void){
             for(int cnt2 = 0; cnt2 < strlen(inst); cnt2++){
                 char cnts =inst[cnt2];
                 char cnt2s = '0' + cnt;
-                printf("%s ", dict[(unsigned char)cnts][(unsigned char)cnt2s]);
+                printf("%s ", dict[0][(unsigned char)cnts][(unsigned char)cnt2s]);
             }
             printf("\n");
         }
