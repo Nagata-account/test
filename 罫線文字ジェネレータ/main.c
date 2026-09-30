@@ -25,8 +25,11 @@ int main(void){
             printf("\n");
         }
     } else if(strcmp(mode, "縦") == 0){
-        for(int cnt = 1; cnt <=8; cnt++){
-            //縦用コード
+        int num = strlen(inst);
+        for(int cnt = 0; cnt <= num; cnt++){
+            for(int cnt2 = 0 <=){
+
+            }
         }
     } else printf(" 入力形式に誤りがあります。入力は次の形式で表記してください。\n   [縦 or 横]\n   [変換したい文字列]\n入力に括弧は不要です。");
     return 0;
